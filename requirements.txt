@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-together
+langchain-mongodb
+pymongo
+python-dotenv
+streamlit
+PyMuPDF
+bs4
+sentence-transformers
