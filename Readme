@@ -1,0 +1,3 @@
+To run this code use
+streamlit run app.py
+Im using local MongoDB

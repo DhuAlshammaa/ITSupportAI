@@ -207,3 +207,11 @@ if __name__ == "__main__":
 
 graph = graph_builder.compile()
 
+resume_splits = resume_splitter.split_documents(resume_docs)
+print(f"📄 Number of resume chunks: {len(resume_splits)}")
+
+blog_splits = blog_splitter.split_documents(blog_docs)
+print(f"📰 Number of blog chunks: {len(blog_splits)}")
+
+for i, chunk in enumerate(resume_splits[:3]):  # Just first 3 chunks for preview
+    print(f"\n--- Chunk {i} ---\n{chunk.page_content[:300]}")

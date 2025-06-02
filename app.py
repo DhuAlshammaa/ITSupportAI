@@ -1,4 +1,7 @@
 import streamlit as st
+import os
+os.environ["TORCH_USE_RTLD_GLOBAL"] = "1"
+
 
 st.title("📄 Resume Q&A Assistant")
 st.markdown("Ask me anything about Dhu's resume!")
